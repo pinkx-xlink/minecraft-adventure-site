@@ -32,6 +32,32 @@ body {
     background-image: url('assets/mossy-cobblestone-texture.png');
 }
 
+/* Minecraft Style Button */
+.mc-button {
+	height: 45px;
+	width: calc(var(--btn-size) * 10);
+	cursor: pointer;
+	overflow: hidden;
+	white-space: nowrap;
+	user-select: none;
+	background: #999 url('https://i.ibb.co/rb2TWXL/bgbtn.png') center / cover;
+	image-rendering: pixelated;
+	border: 2px solid #000;
+    margin: 10px;
+    font-size: large;
+}
+.mc-button:hover {
+    background-color: #94e4f1b4;
+}
+.mc-button> a {
+    font-family: 'Minecraft-Font', sans-serif;
+    text-decoration: none;
+    color: rgb(238, 232, 232);
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -1px, -1px, 2px rgba(255, 255, 255, 0.7); */
+}
+
+
+
 /* Styling the area of the slides */
 #slideshow {
     overflow: hidden;
