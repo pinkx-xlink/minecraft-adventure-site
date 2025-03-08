@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+}
+
 @font-face {
     font-family: 'Minecrafter';
     src: url('assets/minecrafter-font/Minecrafter-MA3Dw.ttf') format('truetype');
@@ -14,6 +18,7 @@
 h1 {
     font-family: 'Minecrafter', sans-serif;
     font-size: 70px;
+    
 }
 
 body {
@@ -155,7 +160,16 @@ img {
 
 /* CSS FOR WHEN THIS APP RUNS ON MOBILE DEVICE */
 @media (max-width: 400px) {
-    
+    h1 {
+        color: lightgray;
+    background-image: url('assets/villagers-running.gif');
+    width: 100%;
+    padding: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
     .image-gallery {
         display: flex;
         flex-direction: column;
