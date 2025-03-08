@@ -176,12 +176,12 @@ img {
 #slideshow {
     overflow: hidden;
     height: 210px;
-    width: 328px;
+    width: 400px;
     margin: 0 auto;
 }
 
 img {
-    width: 328px;
+    width: 400px;
 }
 
 /* Style each of the sides 
@@ -189,7 +189,7 @@ img {
 .slide {
     float: left;
     height: 210px;
-    width: 328px;
+    width: 400px;
 }
 
 /* Add animation to the slides */
@@ -197,7 +197,7 @@ img {
 
     /* Calculate the total width on the
     basis of number of slides */
-    width: calc(328px * 4);
+    width: calc(400px * 4);
 
     /* Specify the animation with the
     duration and speed */
@@ -233,15 +233,15 @@ img {
     }
 
     40% {
-        margin-left: calc(-328px * 1);
+        margin-left: calc(-400px * 1);
     }
 
     60% {
-        margin-left: calc(-328px * 2);
+        margin-left: calc(-400px * 2);
     }
 
     80% {
-        margin-left: calc(-328px * 3);
+        margin-left: calc(-400px * 3);
     }
 }
 
