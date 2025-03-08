@@ -151,6 +151,9 @@ img {
     animation: darkenLighten 30s infinite;
   } */
 
+.my-img {
+    background-color: gray;
+}
   
   /* CSS FOR DESKTOP VIEWING */
 @media (min-width: 999px) {
@@ -165,8 +168,6 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
     .my-img {
-        height: 20px;
-        background-color: purple;
         margin: 10px;
     }
 }
@@ -182,8 +183,6 @@ img {
 
     .my-img {
         width: 70%;
-        height: 20px;
-        background-color: purple;
         margin: 10px;
     }
 }
@@ -282,7 +281,6 @@ img {
     .my-img {
         width: 100%;
         height: auto;
-        background-color: purple;
         margin: 10px;
     }
     .my-img>img {
