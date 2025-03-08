@@ -144,12 +144,7 @@ img {
       filter: brightness(1);
     }
   }
-  
-  /* Apply the animation to the image */
-  /* img {
-    object-fit: cover;
-    animation: darkenLighten 30s infinite;
-  } */
+
 
 .my-img {
     background-color: rgb(83, 83, 83);
@@ -160,12 +155,6 @@ img {
   
   /* CSS FOR DESKTOP VIEWING */
 @media (min-width: 999px) {
-    /* .image-gallery {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    } */
     .image-gallery {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -201,13 +190,16 @@ img {
     background-repeat: no-repeat;
     }
 
-    
 /* Styling the area of the slides */
 #slideshow {
     overflow: hidden;
-    height: 210px;
-    width: 400px;
+    height: 215px;
+    width: 380px;
     margin: 0;
+    background-color: rgb(83, 83, 83);
+    border: 0.5rem inset gray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 img {
