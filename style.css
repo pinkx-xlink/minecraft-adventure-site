@@ -15,6 +15,10 @@ body {
     margin: 0 auto;
 }
 
+img {
+    width: 728px;
+}
+
 /* Style each of the sides 
   with a fixed width and height */
 .slide {
@@ -91,10 +95,10 @@ body {
   }
   
   /* Apply the animation to the image */
-  img {
+  /* img {
     object-fit: cover;
     animation: darkenLighten 30s infinite;
-  }
+  } */
 
   
   /* CSS FOR DESKTOP VIEWING */
