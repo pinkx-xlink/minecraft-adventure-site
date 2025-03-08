@@ -15,3 +15,56 @@
     object-fit: cover;
     animation: darkenLighten 30s infinite;
   }
+
+  /* CSS FOR DESKTOP VIEWING */
+@media (min-width: 999px) {
+    /* .image-gallery {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
+    .image-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .my-img {
+        height: 20px;
+        background-color: purple;
+        margin: 10px;
+    }
+}
+
+/* CSS FOR WHEN THIS APP RUNS ON TABLET */
+@media (max-width: 960px) {
+    .image-gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .my-img {
+        width: 70%;
+        height: 20px;
+        background-color: purple;
+        margin: 10px;
+    }
+}
+
+/* CSS FOR WHEN THIS APP RUNS ON MOBILE DEVICE */
+@media (max-width: 400px) {
+    
+    .image-gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .my-img {
+        width: 70%;
+        height: 20px;
+        background-color: purple;
+        margin: 10px;
+    }
+}
