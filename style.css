@@ -1,23 +1,17 @@
-.scrolling-gif-container {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-.scrolling-gif {
-    position: absolute;
-    width: 100px; /* Adjust the width of the GIF as needed */
-    animation: scroll-left-right 10s linear infinite;
-}
-
-@keyframes scroll-left-right {
+@keyframes darkenLighten {
     0% {
-        left: -100px; /* Start position (off-screen to the left) */
+      filter: brightness(1);
     }
     50% {
-        left: calc(100% - 100px); /* End position (off-screen to the right) */
+      filter: brightness(0.5);
     }
     100% {
-        left: -100px; /* Back to start position */
+      filter: brightness(1);
     }
-}
+  }
+  
+  /* Apply the animation to the image */
+  img {
+    object-fit: cover;
+    animation: darkenLighten 30s infinite;
+  }
