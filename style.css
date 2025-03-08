@@ -4,6 +4,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Minecraft-Font';
+    src:url('assets/minecraft-font/MinecraftRegular-Bmg3.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
 
 h1 {
     font-family: 'Minecrafter', sans-serif;
@@ -11,6 +17,7 @@ h1 {
 }
 
 body {
+    font-family: 'Minecraft-Font';
     padding: 5%;
     text-align: center;
     font-size: 50;
