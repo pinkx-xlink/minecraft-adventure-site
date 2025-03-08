@@ -152,7 +152,10 @@ img {
   } */
 
 .my-img {
-    background-color: gray;
+    background-color: rgb(83, 83, 83);
+    border: 0.5rem inset gray;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
   
   /* CSS FOR DESKTOP VIEWING */
