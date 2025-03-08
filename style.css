@@ -22,6 +22,9 @@ h1 {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: 'Minecraft-Font';
     padding: 5%;
     text-align: center;
@@ -169,7 +172,6 @@ img {
     background-repeat: no-repeat;
     }
 
-
     
 /* Styling the area of the slides */
 #slideshow {
@@ -247,6 +249,7 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .my-img {
