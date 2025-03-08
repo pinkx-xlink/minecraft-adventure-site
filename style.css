@@ -18,7 +18,7 @@
 h1 {
     font-family: 'Minecrafter', sans-serif;
     font-size: 70px;
-    
+    color: white;
 }
 
 body {
@@ -161,10 +161,9 @@ img {
 /* CSS FOR WHEN THIS APP RUNS ON MOBILE DEVICE */
 @media (max-width: 400px) {
     h1 {
-        color: lightgray;
     background-image: url('assets/villagers-running.gif');
     width: 100%;
-    padding: 50px;
+    padding: 20px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
