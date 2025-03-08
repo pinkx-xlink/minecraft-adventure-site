@@ -29,6 +29,7 @@ body {
     padding: 5%;
     text-align: center;
     font-size: 50;
+    background-image: url('assets/mossy-cobblestone-texture.png');
 }
 
 /* Styling the area of the slides */
