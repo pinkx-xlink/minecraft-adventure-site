@@ -190,6 +190,13 @@ img {
     background-repeat: no-repeat;
     }
 
+    .mc-button {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
 /* Styling the area of the slides */
 #slideshow {
     overflow: hidden;
