@@ -1,9 +1,14 @@
+.image-gallery {
+    width: 70%;
+}
+
 .images {
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.images {
+.img-section {
     width: 70%;
 }
 
@@ -12,8 +17,10 @@
     transition: transform 0.3s ease;
     border: 9px inset brown;
 }
-
-.images > img:hover {
+.img-frame {
+    width: 90%;
+}
+.img-frame > img:hover {
     transform: scale(1.2);
 }
 
