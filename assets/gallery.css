@@ -1,13 +1,4 @@
-.gallery-container {
-    display: flex;
-    justify-content: space-around;
-}
 
-.image-gallery {
-    display: inline-grid;
-    grid-template-columns: 40% 30% 40%;
-    padding: 2rem;
-}
 
 .my-img {
     width: 70%;
@@ -16,3 +7,17 @@
 .my-img > img {
     width: 100%;
 }
+
+ /* CSS FOR DESKTOP VIEWING */
+ @media (min-width: 999px) {
+    .gallery-container {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .image-gallery {
+        display: inline-grid;
+        grid-template-columns: 40% 30% 40%;
+        padding: 2rem;
+    }
+ }
