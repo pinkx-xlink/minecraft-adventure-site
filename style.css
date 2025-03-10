@@ -178,6 +178,14 @@ footer {
         padding-bottom: 5rem;
         padding-top: 5rem;
     }
+    .mc-buttons {
+        background-color: rgba(61, 56, 56, 0.658);
+        width: 100%;
+        display: flex;
+    }
+    .mc-button {
+        width: 90%;
+    }
     .image-gallery {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
