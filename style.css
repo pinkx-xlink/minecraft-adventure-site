@@ -169,7 +169,8 @@ footer {
   }
 
 
-.my-img {
+.my-img, 
+.img-section {
     background-color: rgb(83, 83, 83);
     border: 0.5rem inset gray;
     padding-top: 2rem;
@@ -194,7 +195,8 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .my-img {
+    .my-img,
+    .img-section {
         margin: 10px;
     }
 }
@@ -211,7 +213,8 @@ footer {
         margin: 5px;
     }
 
-    .my-img {
+    .my-img,
+    .img-section {
         width: 70%;
         margin: 10px;
     }
@@ -314,12 +317,14 @@ footer {
         justify-content: center;
     }
 
-    .my-img {
+    .my-img,
+    .img-section {
         width: 100%;
         height: auto;
         margin: 10px;
     }
-    .my-img>img {
+    .my-img>img,
+    .img-section>img {
         width: 70%;
     }
 }

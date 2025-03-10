@@ -1,11 +1,21 @@
+.img-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
-
-.my-img {
+.img-section {
     width: 70%;
 }
 
-.my-img > img {
-    width: 100%;
+.img-section > img {
+    width: 90%;
+    transition: transform 0.3s ease;
+    border: 9px inset brown;
+    margin-top: -15px;
+}
+
+.img-section > img:hover {
+    transform: scale(1.2);
 }
 
  /* CSS FOR DESKTOP VIEWING */
