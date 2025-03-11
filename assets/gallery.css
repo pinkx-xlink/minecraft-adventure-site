@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 h1 {
     height: 2rem;
     width: 100%;
@@ -58,9 +64,5 @@ h1 {
         justify-content: space-around;
     }
     
-    .image-gallery {
-        display: inline-grid;
-        grid-template-columns: 35% 30% 35%;
-        padding: 1rem;
-    }
+    
  }
