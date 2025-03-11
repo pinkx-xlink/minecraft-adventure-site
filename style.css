@@ -53,6 +53,9 @@ p {
     padding: 0.5rem;
 }
 
+.mc-button-container {
+    display: flex;
+}
 /* Minecraft Style Button */
 .mc-button {
 	height: 45px;
@@ -94,7 +97,7 @@ p {
 }
 
 footer {
-    height: 10rem;
+    height: 15rem;
     background-image: url('assets/dirt-texture.jpg');
     border-top: 0.5rem solid rgb(22, 143, 76);
     width: 100%;
@@ -193,7 +196,6 @@ footer {
     .mc-buttons {
         background-color: rgba(61, 56, 56, 0.658);
         width: 100%;
-        display: flex;
     }
     .mc-button {
         width: 90%;
@@ -233,13 +235,19 @@ footer {
 
 /* CSS FOR WHEN THIS APP RUNS ON MOBILE DEVICE */
 @media (max-width: 400px) {
+    .index-h1 {
+        width: 100%;
+    }
     .mc-buttons {
+        width: 100%;
         position: fixed;
         bottom: 0;
         left: 0;
         right: 0;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .mc-button {
         width: 100%;
