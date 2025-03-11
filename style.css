@@ -94,6 +94,7 @@ p {
 
 .slide > img {
     width: 728px;
+    /* margin: -75px 0 0 -100px; */
 }
 
 footer {
@@ -107,8 +108,9 @@ footer {
   with a fixed width and height */
 .slide {
     float: left;
-    height: 510px;
+    height: 500px;
     width: 728px;
+    /* overflow: hidden; */
 }
 
 /* Add animation to the slides */
