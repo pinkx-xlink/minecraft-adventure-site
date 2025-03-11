@@ -44,6 +44,9 @@ body {
     background-image: url('assets/mossy-cobblestone-texture.png');
     width: 100%;
 }
+.homepage-text-container {
+
+}
 
 p {
     background-color: rgba(68, 68, 68, 0.418);
