@@ -52,6 +52,10 @@ h1 {
     transition: transform 0.3s ease;
     border: 9px inset brown;
 }
+.images > video {
+    width: 180%;
+    border: 9px inset brown;
+}
 
 .images > img:hover {
     transform: scale(1.2);
