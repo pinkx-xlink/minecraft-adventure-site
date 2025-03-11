@@ -29,7 +29,7 @@ h1 {
 .index-h1 {
     font-size: 70px;
     margin-bottom: 2rem;
-    background-image: url('assets/villagers-running.gif');
+    background-image: url('assets/aerial-view-minecraft-sammear.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -192,8 +192,8 @@ footer {
   /* CSS FOR DESKTOP VIEWING */
 @media (min-width: 999px) {
     .index-h1 {
-        padding-bottom: 5rem;
-        padding-top: 5rem;
+        padding-bottom: 6rem;
+        padding-top: 6rem;
     }
     .mc-buttons {
         background-color: rgba(61, 56, 56, 0.658);
