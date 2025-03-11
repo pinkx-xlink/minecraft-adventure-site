@@ -45,9 +45,19 @@ body {
     width: 100%;
 }
 .homepage-text-container {
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
-
+.homepage-text-container > p {
+    width: 40%;
+    padding: 3rem;
+    overflow: hidden;
+}
+.homepage-text-container > p > img {
+    /* Hides the top of the screenshot */
+    height: 300px;
+    margin: -150px 0 0 -100px;
+}
 p {
     background-color: rgba(68, 68, 68, 0.418);
     margin: 1rem;
