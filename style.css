@@ -176,7 +176,7 @@ footer {
 
     /* Calculate the total width on the
     basis of number of slides */
-    width: calc(728px * 4);
+    width: calc(728px * 5);
 
     /* Specify the animation with the
     duration and speed */
