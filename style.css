@@ -45,7 +45,11 @@ body {
     width: 100%;
 }
 
-
+.frame {
+    background-color: rgb(223, 220, 220);
+    color: rgb(66, 64, 64);
+    border: 15px outset rgb(165, 117, 54);
+}
 .homepage-text-container > p:hover {
     transform: scale(1.2);
     transition: transform 0.3s ease;
@@ -53,6 +57,7 @@ body {
 .homepage-text-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2rem);
     align-items: center;
     justify-items: center;
 
@@ -64,7 +69,7 @@ body {
     overflow: hidden;
     text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.3);
-    max-height: 270px;
+    max-height: 300px;
 }
 .homepage-text-container > p > img {
     /* Hides the top of the screenshot */
@@ -79,7 +84,32 @@ p {
     border: 0.5rem inset gray;
     padding: 0.5rem;
 }
-
+.home-img2 {
+    opacity: 0;
+}
+#double-image-frame {
+    height: 300px;
+    /*PLAY WITH WIDTH width: 100%; */
+    margin: 0, auto;
+    display: flex;
+    flex-direction: row;
+}
+#double-image-frame > p {
+    height: 1000px;
+}
+#home-bedroom-frame > img {
+    width: 40%;
+    height: 300px;
+    padding-bottom: 3rem;
+}
+#home-bedroom-frame:hover .home-img1{
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+#home-bedroom-frame:hover .home-img2{
+    opacity: 1;
+}
 .mc-button-container {
     display: flex;
 }
