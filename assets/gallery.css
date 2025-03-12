@@ -9,32 +9,7 @@ h1 {
     width: 100%;
 }
 
-.painting {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.slanted-lines {
-    display: flex;
-    justify-content: space-evenly;
-}
-.slanted-line-left {
-    width: 2px;
-    height: 100px;
-    background-color: rgba(0, 0, 0, 0.856);
-    transform: rotate(45deg); /* Adjust the angle as needed */
-    margin-left: 24%;
-}
-.slanted-line-right {
-    width: 2px;
-    height: 100px;
-    background-color: rgba(0, 0, 0, 0.856);
-    transform: rotate(-45deg); /* Adjust the angle as needed */
-    margin-right: 24%;
-}
-#gallery-slideshow-btn {
-    margin-top: -17px;
-}
+
 
 .images {
     display: grid;

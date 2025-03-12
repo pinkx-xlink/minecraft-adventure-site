@@ -35,6 +35,49 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.painting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.slanted-lines {
+    display: flex;
+    justify-content: space-evenly;
+}
+.slanted-line-left {
+    width: 2px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.856);
+    transform: rotate(45deg); /* Adjust the angle as needed */
+    margin-left: 24%;
+}
+.slanted-line-right {
+    width: 2px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.856);
+    transform: rotate(-45deg); /* Adjust the angle as needed */
+    margin-right: 24%;
+}
+#gallery-slideshow-btn {
+    margin-top: -17px;
+    background-color: #cfcdcd;
+    border: 15px outset rgb(165, 117, 54);
+    margin-bottom: 7rem;
+}
+#gallery-slideshow-btn > p {
+    border: none;
+    background-color: #cfcdcd;
+    box-shadow: none;
+    width: 53%;
+}
+#gallery-slideshow-btn > p > a {
+    text-decoration: none;
+    color: black;
+}
+#gallery-slideshow-btn > p:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -176,7 +219,7 @@ footer {
 
     /* Calculate the total width on the
     basis of number of slides */
-    width: calc(728px * 5);
+    width: calc(728px * 4);
 
     /* Specify the animation with the
     duration and speed */
