@@ -44,19 +44,33 @@ body {
     background-image: url('assets/mossy-cobblestone-texture.png');
     width: 100%;
 }
+
+
+.homepage-text-container > p:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
 .homepage-text-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+
 }
 .homepage-text-container > p {
+    font-size: larger;
     width: 40%;
-    padding: 3rem;
+    padding: 5rem;
     overflow: hidden;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.3);
+    max-height: 270px;
 }
 .homepage-text-container > p > img {
     /* Hides the top of the screenshot */
     height: 300px;
-    margin: -150px 0 0 -100px;
+    margin: -100px 0 0 -100px;
+    padding-bottom: 3rem;
 }
 p {
     background-color: rgba(68, 68, 68, 0.418);
