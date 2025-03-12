@@ -122,6 +122,9 @@ video {
 
   /* CSS FOR MOBILE VIEWING */
   @media (max-width: 400px) {
+    header {
+        width: 100%;
+    }
     /* Styling the area of the slides */
     #slideshow {
         overflow: hidden;
