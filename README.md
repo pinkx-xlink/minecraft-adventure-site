@@ -11,3 +11,6 @@ Day 5 To-Do:
 Day 6 To-Do
 - Move Picture Frame btn to Home page
 - Move Slideshow to the top of Gallery, or possibly back to Home page
+- change text color to white?
+- Make grid flow more dynamically 
+- Finish About page
