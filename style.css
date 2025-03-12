@@ -88,17 +88,13 @@ p {
     opacity: 0;
 }
 #double-image-frame {
-    height: 300px;
-    /*PLAY WITH WIDTH width: 100%; */
-    margin: 0, auto;
+    width: 100%;
+    margin: -100px 0 0 -100px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
-#double-image-frame > p {
-    height: 1000px;
-}
+
 #home-bedroom-frame > img {
-    width: 40%;
     height: 300px;
     padding-bottom: 3rem;
 }
