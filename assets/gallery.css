@@ -3,13 +3,10 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
 }
-
 h1 {
     height: 2rem;
     width: 100%;
 }
-
-
 
 .images {
     display: grid;
@@ -24,7 +21,6 @@ h1 {
 
 .images > img {
     width: 90%;
-    transition: transform 0.3s ease;
     border: 9px inset brown;
 }
 .images > video {
@@ -32,9 +28,7 @@ h1 {
     border: 9px inset brown;
 }
 
-.images > img:hover {
-    transform: scale(1.2);
-}
+
 
  /* CSS FOR DESKTOP VIEWING */
  @media (min-width: 999px) {
@@ -42,6 +36,23 @@ h1 {
         display: flex;
         justify-content: space-around;
     }
+    .images > img {
+        width: 90%;
+        transition: transform 0.3s ease;
+    }
+    .images > img:hover {
+        transform: scale(1.2);
+    }
+ }
+
+ @media (max-width: 900px) {
     
-    
+ }
+
+  /* CSS FOR MOBILE VIEWING */
+  @media (max-width: 400px) {
+    .gallery-container {
+        display: flex;
+        justify-content: center;
+    }
  }
