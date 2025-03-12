@@ -199,10 +199,16 @@ p {
 }
 
 footer {
-    height: 15rem;
+    height: 19rem;
     background-image: url('assets/dirt-texture.jpg');
     border-top: 0.5rem solid rgb(22, 143, 76);
     width: 100%;
+}
+footer > p {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 /* Style each of the sides 
