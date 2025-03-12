@@ -52,6 +52,7 @@ video {
     float: left;
     height: 500px;
     width: 728px;
+    margin: -100px 0 0 0;
     /* overflow: hidden; */
 }
 
