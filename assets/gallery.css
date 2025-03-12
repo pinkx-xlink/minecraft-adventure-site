@@ -23,7 +23,7 @@ h1 {
     width: 90%;
     border: 9px inset brown;
 }
-.images > video {
+video {
     width: 180%;
     border: 9px inset brown;
 }
@@ -46,7 +46,9 @@ h1 {
  }
 
  @media (max-width: 900px) {
-    
+    video {
+        width: 90%;
+    }
  }
 
   /* CSS FOR MOBILE VIEWING */
@@ -54,5 +56,8 @@ h1 {
     .gallery-container {
         display: flex;
         justify-content: center;
+    }
+    video {
+        width: 90%;
     }
  }
