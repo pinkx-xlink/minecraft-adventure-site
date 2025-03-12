@@ -57,7 +57,6 @@ video {
 
 /* Add animation to the slides */
 .slide-wrapper {
-
     /* Calculate the total width on the
     basis of number of slides */
     width: calc(728px * 4);
@@ -65,24 +64,6 @@ video {
     /* Specify the animation with the
     duration and speed */
     animation: slide 10s ease infinite;
-}
-
-/* Set the background color
-  of each of the slides */
-.slide:nth-child(1) {
-    background: green;
-}
-
-.slide:nth-child(2) {
-    background: pink;
-}
-
-.slide:nth-child(3) {
-    background: red;
-}
-
-.slide:nth-child(4) {
-    background: yellow;
 }
 
 /* Define the animation 
@@ -170,24 +151,6 @@ video {
     /* Specify the animation with the
     duration and speed */
     animation: slide 10s ease infinite;
-    }
-
-    /* Set the background color
-    of each of the slides */
-    .slide:nth-child(1) {
-        background: green;
-    }
-
-    .slide:nth-child(2) {
-        background: pink;
-    }
-
-    .slide:nth-child(3) {
-        background: red;
-    }
-
-    .slide:nth-child(4) {
-    background: yellow;
     }
 
     /* Define the animation 
