@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: x-large;
 }
 .icon {
     height: 95px;
@@ -12,7 +13,6 @@
 
 @media (min-width: 960px) {
     .about-container {
-        font-size: larger;
         padding-left: 15rem;
         padding-right: 18rem;
         padding-bottom: 10rem;
