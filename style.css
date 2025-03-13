@@ -39,6 +39,12 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.text-block {
+    width: 55%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: x-large;
+}
 .painting {
     display: flex;
     flex-direction: column;
@@ -190,6 +196,10 @@ i {
     border: 0.5rem inset gray;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+#book-today-btn {
+    width: 50%;
 }
   
 footer {
