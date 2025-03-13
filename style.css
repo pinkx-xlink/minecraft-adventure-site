@@ -190,7 +190,9 @@ i {
     text-decoration: none;
     color: rgb(238, 232, 232);
 }
-
+.img-section {
+    font-size: x-large;
+}
 .my-img, 
 .img-section {
     background-color: rgb(83, 83, 83);
