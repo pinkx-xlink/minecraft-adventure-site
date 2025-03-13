@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
     font-family: 'Minecraft-Font';
     color: antiquewhite;
 }
@@ -113,7 +114,6 @@ body {
     width: 40%;
     padding: 5rem;
     overflow: hidden;
-    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.3);
     max-height: 300px;
 }
@@ -129,7 +129,6 @@ p {
     background-color: rgb(83, 83, 83);
     border: 0.5rem inset gray;
     padding: 0.5rem;
-    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.3);
 }
 i {
@@ -173,7 +172,6 @@ i {
 	border: 2px solid #000;
     margin: 10px;
     font-size: large;
-    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.3);
 }
 .mc-button:hover {
@@ -184,7 +182,6 @@ i {
     font-family: 'Minecraft-Font', sans-serif;
     text-decoration: none;
     color: rgb(238, 232, 232);
-    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -1px, -1px, 2px rgba(255, 255, 255, 0.7); */
 }
 
 .my-img, 
