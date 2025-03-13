@@ -102,7 +102,6 @@ body {
 
 .frame {
     background-color: rgb(223, 220, 220);
-    
     border: 15px outset rgb(165, 117, 54);
 }
 .hero-section-container > p:hover {
@@ -128,7 +127,7 @@ body {
 .hero-section-container > p > img {
     /* Hides the top of the screenshot */
     height: 300px;
-    margin: -100px 0 0 -100px;
+    margin: -95px 0 0 -80px;
     padding-bottom: 3rem;
 }
 p {
