@@ -26,19 +26,20 @@ header {
     margin-bottom: 3rem;
 }
 h1 {
+    font-size: 6rem;
     font-family: 'Minecrafter', sans-serif;
     color: white;
     width: 100%;
 }
 .index-h1 {
-    font-size: 70px;
-    margin-bottom: 2rem;
     background-image: url('assets/aerial-view-minecraft-sammear.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.mc-buttons {
+    background-color: rgba(59, 51, 51, 0.651);
+}
 .text-block {
     width: 55%;
     padding-top: 2rem;
