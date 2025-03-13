@@ -151,7 +151,7 @@ i {
 }
 
 #home-bedroom-frame > img {
-    height: 300px;
+    min-height: 300px;
     padding-bottom: 3rem;
 }
 #home-bedroom-frame:hover .home-img1{
@@ -278,7 +278,9 @@ footer {
         width: 70%;
         margin: 10px;
     }
-    
+    .frame {
+        min-height: 400px;
+    }
 }
 
 
@@ -303,7 +305,7 @@ footer {
     .hero-section-container {
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
     }
     
     .hero-section-container > p:hover {
@@ -328,6 +330,9 @@ footer {
     .my-img>img,
     .img-section>img {
         width: 70%;
+    }
+    .frame {
+        min-height: 400px;
     }
 }
 
